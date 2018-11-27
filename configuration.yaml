@@ -1,7 +1,7 @@
 homeassistant:
-  name: BRUH3
-  latitude: !secret home_latitude
-  longitude: !secret home_longitude
+  name: MyHome
+  latitude: !secret latitude_loc_home
+  longitude: !secret longitude_loc_home
   elevation: !secret home_elevation
   unit_system: imperial
   time_zone: America/New_York
@@ -15,10 +15,10 @@ http:
   ssl_key: !secret ssl_key
   base_url: !secret base_url
   server_port: !secret server_port
-  cors_allowed_origins:
-    - https://google.com
-    - https://home-assistant.io
-  use_x_forwarded_for: True
+  #cors_allowed_origins:
+  #  - https://google.com
+  #  - https://home-assistant.io
+  #use_x_forwarded_for: True
   trusted_networks:
     - !secret trusted_ip
     - !secret trusted_ip_2
