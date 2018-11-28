@@ -3,14 +3,8 @@ These are the Home Assistant configuration files used in the a Home Automation p
 # Installation Process
 I'm currently running [Home Assistant](https://home-assistant.io) version __1.5.0__ 'Autumn Bump'. My preferred installation method is [Hassbian](https://github.com/home-assistant/pi-gen/releases). I used [https://github.com/home-assistant/pi-gen/releases/download/v.1.5.0/image_2018-10-27-Hassbian.zip]
 
-After downloading the disk image and writing it to an SD card with [Etcher](https://etcher.io/), I run the following commands in [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) to install the required prerequisites. 
+After downloading the disk image and writing it to an SD card with [Etcher](https://etcher.io/), I run all commands in [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). 
 
-```
-sudo hassbian-config install mosquitto
-sudo hassbian-config install libcec
-sudo hassbian-config install openzwave
-sudo hassbian-config install samba
-```
 I also use [HASSCTL](https://github.com/dale3h/hassctl) which allows for some of thsee super simple commandline shortcuts for starting, stoping, upgrading, and debugging HA. 
 
 ```
@@ -21,7 +15,7 @@ hassctl error
 ```
 
 # Hardware Running HA
-* __[Raspberry Pi 3](http://geni.us/raspberrypi3)__
+* __[Raspberry Pi 3](https://www.amazon.com/V-Kits-Raspberry-Model-Starter-Latest/dp/B07BDRD3LP/ref=sr_1_1_sspa?s=pc&ie=UTF8&qid=1543418814&sr=1-1-spons&keywords=raspberry+pi+3&psc=1)__
 * __[Case](http://geni.us/2rQEgy5)__
 * __[CanaKit 2.5A 5V Power Supply](http://geni.us/2ABPd1D)__
 * __[Samsung Evo+ 64GB SD](http://geni.us/PbZS2oD)__
@@ -87,5 +81,5 @@ hassctl error
 
 
 
-# BRUH3 Flow Diagram 
+# Flow Diagram 
 ![BFD](www/BFDv2.png)
